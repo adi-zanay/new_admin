@@ -1,0 +1,19 @@
+html 
+    head 
+        title Login 
+    body 
+        center 
+            h1 Fill the credentials first...
+            br
+            form(action="suc_fai", method='post')
+
+                label(for='name') Username : 
+                input(type="text", name='name', placeholder='Enter your username/email') 
+                br
+                
+                label(for='password') Password : 
+                input(type="password", name='password', placeholder='Enter your password')
+                br
+                br
+
+                input(type="submit" styl="background-color: yellow;")
